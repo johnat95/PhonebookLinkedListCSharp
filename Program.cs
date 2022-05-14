@@ -12,6 +12,7 @@ manager.AddSorted(manager.CreateContactNode(b, b, b, b, b, b, b, b));
 
 manager.AddSorted(manager.CreateContactNode(d,d,d,d,d,d,d,d));
 manager.AddSorted(manager.CreateContactNode(c,c,c,c,c,c,c,c));
+manager.RemoveNode("cc");
 
 manager.DisplayAll();
 
