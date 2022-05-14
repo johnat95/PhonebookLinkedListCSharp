@@ -43,7 +43,7 @@ namespace PhoneBook
         internal ContactNode? FirstContactNode { get => _firstContactNode; set => _firstContactNode = value; }
 
 
-        public void addNode(ContactNode newNode)
+        public void AddNode(ContactNode newNode)
         {
             if(_firstContactNode == null)
             {
@@ -62,7 +62,7 @@ namespace PhoneBook
                
             }
         }
-        public ContactNode? getNode(int index)
+        public ContactNode? GetNode(int index)
         {
             ContactNode? current = _firstContactNode;
             return current;
